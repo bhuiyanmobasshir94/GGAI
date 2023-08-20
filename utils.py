@@ -65,10 +65,11 @@ def get_multiple_feedback(review):
             - List of emotions that the reviewer is expressing (Include no more than \
             five items in the list. Format your answer as a list of \
             lower-case words separated by commas.)
+            - Summarize the review (In at most 20 words)
 
             The review is delimited with triple backticks. \
             Format your response as a JSON object with \
-            "Sentiment", "Anger", "Emotions" as the keys.
+            "Sentiment", "Anger", "Emotions" and "Summary" as the keys.
             If the information isn't present, use "unknown" \
             as the value.
             Make your response as short as possible.

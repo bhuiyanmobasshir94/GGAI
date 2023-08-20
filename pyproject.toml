@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ggai"
+version = "0.1.0"
+description = "A generative AI package developed by Graaho"
+authors = ["Mobasshir Bhuiya"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^0.27.8"
+python-dotenv = "^1.0.0"
+ipykernel = "^6.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
